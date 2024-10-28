@@ -23,8 +23,8 @@ if data['forecast']['forecastday'][1]['day']['daily_will_it_rain']:
     client = Client(account_sid, auth_token)
 
     m = client.api.account.messages.create(
-        to="+919626321666",
-        from_="+17606210294",
+        to="",
+        from_="",
         body= msg)
 # else:
 #     print("No, there is no rain")
